@@ -14,7 +14,8 @@ Detect whether a job listing is **real** or **fake**, based on its title, descri
 
 ```bash
 .
-├── eda.py                        # Exploratory Data Analysis
+├── fake_job_postings.csv        # Original dataset (from Kaggle)
+├── eda.py                       # Exploratory Data Analysis
 ├── preprocess.py                # Preprocessing & feature creation
 ├── extract_bert_embeddings.py   # DistilBERT embeddings (batched + Focal Loss)
 ├── train_logistic_baseline.py   # Simple baseline: logistic regression
