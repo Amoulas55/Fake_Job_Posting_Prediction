@@ -29,7 +29,7 @@ Detect whether a job listing is **real** or **fake**, based on its title, descri
 
 
 
-🛠️ Techniques Used
+## 🛠️ Techniques Used
 📊 EDA: Class imbalance, text length, top words
 
 🧼 Preprocessing: Cleaning text, TF-IDF, metadata
@@ -56,7 +56,7 @@ ROC & PR curves
 
 🧪 Sanity Checks: Ensures data integrity, class balance, consistency
 
-📊 Final Model Performance (XGBoost + Optuna)
+## 📊 Final Model Performance (XGBoost + Optuna)
 Metric	Value
 Accuracy	98.18%
 F1-score (Fake)	78.83%
@@ -65,10 +65,9 @@ Precision (Fake)	90.30%
 
 📁 All evaluation plots saved locally (confusion matrix, ROC, PR curve, etc.)
 
-💡 Why This Matters
+## 💡 Why This Matters
 Fake job listings are a rising threat to job seekers. This project uses advanced ML and NLP tools to help automate fake job detection, and demonstrates a real-world data science workflow with interpretability and sanity checks.
 
-👤 Author
+## 👤 Author
 Angelos Moulas
 MSc in Data Science & Society
-LinkedIn | GitHub
